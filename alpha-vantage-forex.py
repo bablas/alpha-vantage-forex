@@ -7,7 +7,7 @@ import json
 import requests
 import pymongo
 
-apiKey = 'JVECI853Y04MXZAW'
+
 
 #------------------------------------------------------
 # DATABASE CONNECT
