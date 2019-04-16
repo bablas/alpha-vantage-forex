@@ -102,48 +102,48 @@ while True:
 
         collectionBTC.insert_one(insertBTC)
 
-        # insertEUR = {
-        #         'date': current_date,
-        #         'time': current_time,
-        #         'open': EURopen,
-        #         'high': EURhigh,
-        #         'low' : EURlow,
-        #         'close': EURclose
-        #
-        #
-        #     }
-        #
-        #
-        # collectionEUR.insert_one(insertEUR)
-        #
-        #
-        #
-        # insertCNY = {
-        #         'date': current_date,
-        #         'time': current_time,
-        #         'open': CNYopen,
-        #         'high': CNYhigh,
-        #         'low' : CNYlow,
-        #         'close': CNYclose
-        #
-        #
-        #     }
-        #
-        #
-        # collectionCNY.insert_one(insertCNY)
-        #
-        #
-        #
-        # insertJPY = {
-        #         'date': current_date,
-        #         'time': current_time,
-        #         'open': JPYopen,
-        #         'high': JPYhigh,
-        #         'low' : JPYlow,
-        #         'close': JPYclose
-        #
-        #
-        #     }
+        insertEUR = {
+                'date': current_date,
+                'time': current_time,
+                'open': EURopen,
+                'high': EURhigh,
+                'low' : EURlow,
+                'close': EURclose
+
+        
+            }
+
+
+        collectionEUR.insert_one(insertEUR)
+
+
+
+        insertCNY = {
+                'date': current_date,
+                'time': current_time,
+                'open': CNYopen,
+                'high': CNYhigh,
+                'low' : CNYlow,
+                'close': CNYclose
+
+
+            }
+
+
+        collectionCNY.insert_one(insertCNY)
+
+
+
+        insertJPY = {
+                'date': current_date,
+                'time': current_time,
+                'open': JPYopen,
+                'high': JPYhigh,
+                'low' : JPYlow,
+                'close': JPYclose
+
+
+            }
 
 
         collectionJPY.insert_one(insertJPY)
